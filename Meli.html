@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi Mejor Amiga</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('./Images/Fresas.jpg') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 5% auto;
+            width: 80%;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #ff69b4;
+            animation: fadeIn 2s;
+        }
+        p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .message {
+            background-color: #fff;
+            border: 2px solid #ff69b4;
+            border-radius: 10px;
+            padding: 20px;
+            display: inline-block;
+            margin: 20px auto;
+            animation: slideIn 2s;
+        }
+        img {
+            width: 100px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            animation: bounceIn 2s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes bounceIn {
+            0% { transform: scale(0.5); opacity: 0; }
+            60% { transform: scale(1.2); opacity: 1; }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Para mi Mejor Amiga</h1>
+        <div class="message">
+            <img src="./Images/IMG-20240715-WA0096.jpg" alt="Foto de tu amiga">
+            <p>Querida Melitza Quintero,</p>
+            <p>Quiero que sepas cuánto te aprecio y valoro tu amistad. Eres una persona increíble y estoy muy agradecido de tenerte en mi vida. Gracias por estar siempre ahí para mí. ¡Te quiero mucho!</p>
+            <p>Con cariño,</p>
+            <p>Daiver Epiayu </p>
+        </div>
+    </div>
+</body>
+</html>
